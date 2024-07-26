@@ -5,11 +5,77 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
+
 	<head>
 		<title>Highlights by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.css" /> 
+		<style>
+			/* Include the updated CSS here if not in an external stylesheet */
+	
+			#footer {
+				min-height: 100vh;
+				padding: 0 0 12em 0;
+				position: relative;
+				text-align: center;
+				background-image: url('images/IMG_2909.jpeg'); /* Update the path as necessary */
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				z-index: 1;
+			}
+	
+			#footer .container {
+				padding: 5em 2.5em 3em 2.5em;
+				background: rgba(255, 255, 255, 0.95);
+				box-shadow: inset 0 1px 0 0 #dddddd;
+				z-index: 2;
+				position: relative;
+			}
+	
+			#footer footer {
+				bottom: 2em;
+				color: rgba(255, 255, 255, 0.5);
+				left: 0;
+				position: absolute;
+				text-align: center;
+				width: 100%;
+				z-index: 2;
+			}
+	
+			#footer footer h1, #footer footer h2, #footer footer h3, #footer footer h4, #footer footer h5, #footer footer h6, #footer footer strong, #footer footer b {
+				color: #ffffff;
+			}
+	
+			#footer footer a {
+				color: inherit;
+			}
+	
+			#footer footer a:hover {
+				color: #ffffff !important;
+			}
+	
+			#footer footer .copyright {
+				font-size: 0.8em;
+				line-height: 1em;
+				padding: 0;
+			}
+	
+			#footer footer .copyright li {
+				border-left: solid 1px rgba(255, 255, 255, 0.2);
+				display: inline-block;
+				margin: 0 0 0 1em;
+				padding: 0 0 0 1em;
+			}
+	
+			#footer footer .copyright li:first-child {
+				border-left: 0;
+				margin-left: 0;
+				padding-left: 0;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -17,7 +83,7 @@
 			<section id="header">
 				<header class="major">
 					<h1>Amirithavarshini Gurupandian</h1>
-					<p>Cybersecurity graduate specializing in Digital Forensics and Information Security, dedicated to safeguarding digital landscapes. <a href="Amirithavarshini_Gurupandian.pdf">Know more.</a></p>
+					<p>Cybersecurity graduate specializing in Digital Forensics and Information Security, dedicated to safeguarding digital landscapes. <a href="Amirithavarshini Gurupandian.pdf">Know more.</a></p>
 				</header>
 				<div class="container">
 					<ul class="actions special">
@@ -48,23 +114,23 @@
 						<header class="major">
 							<h2>Stuff I do</h2>
 						</header>
-						<p>Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate.</p>
+						<p>Learn more about my projects here</p>
 						<ul class="icons-grid">
 							<li>
-								<span class="icon solid major fa-camera-retro"></span>
-								<h3>Magna Etiam</h3>
+								<span class="icon solid major fa-infinity"></span>
+								<h3><a href="#three">CI/CD Integration</a></h3>
 							</li>
-							<li>
+							<!-- <li>
 								<span class="icon solid major fa-pencil-alt"></span>
 								<h3>Lorem Ipsum</h3>
 							</li>
 							<li>
 								<span class="icon solid major fa-code"></span>
 								<h3>Nulla Tempus</h3>
-							</li>
+							</li> -->
 							<li>
-								<span class="icon solid major fa-coffee"></span>
-								<h3>Sed Feugiat</h3>
+								<span class="icon solid major fa-robot"></span>
+								<h3><a href="#four" class="CI/CD Integration with Jenkins">EIRA - Cyberbot</a></h3>
 							</li>
 						</ul>
 					</div>
@@ -78,17 +144,33 @@
 					<span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span>
 					<div class="content">
 						<header class="major">
-							<h2>One more thing</h2>
+							<h2>CI/CD Integration with Jenkins</h2>
 						</header>
-						<p>Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum.</p>
+						<p>I developed a robust CI/CD pipeline using Jenkins, automating builds triggered by GitHub updates and enhancing team communication with Slack notifications and integrated JaCoCo and SonarQube to ensure superior code quality and maintainability. Deployment processes were improved with AWS ECS and Docker, leading to a 30% increase in scalability and reliability for cloud deployments. This comprehensive setup significantly streamlined our development workflow and enhanced overall project efficiency. <a href="https://github.com/AmirithaGuru/Enhanced_MathUtils.git">Click here for Git repository.</a>
+						</p>
+
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</div>
+			</section>
+		
+		<!-- Four -->
+			<section id="four" class="main special">
+				<div class="container">
+					<span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span>
+					<div class="content">				
+						<header class="major">
+							<h2>EIRA - A Cyberbot</h2>
+						</header>
+						<p>Developed and maintained "EIRA - A Cyberbot" for the Security Knowledge Framework, specializing in providing detailed information on security vulnerabilities, including descriptions, solutions, and code snippets. Built a robust database of over 300 vulnerability queries, empowering users with swift access to comprehensive threat information and mitigation strategies. Assisted users in understanding and addressing security vulnerabilities across various software applications. Designed a user-friendly text-based interface, enabling users to input commands and receive both text and text-to-speech responses. <a href="https://www.ijnrd.org/viewpaperforall?paper=IJNRD2303341">"EIRA - A Cyberbot"</a> was published in the International Journal of Novel Research and Development.</p>
 					</div>
 					<a href="#footer" class="goto-next scrolly">Next</a>
 				</div>
 			</section>
 
-		<!-- Four -->
-		<!--
-			<section id="four" class="main">
+		<!-- Five -->
+<!-- 		
+			<section id="five" class="main">
 				<div class="container">
 					<div class="content">
 						<header class="major">
@@ -163,7 +245,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="https://github.com/AmirithaGuru" class="icon brands fa-github"><span class="label">Github</span></a></li>
 									</ul>
 								</div>
 							</div>
@@ -405,10 +487,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<a href="#footer" class="goto-next scrolly">Next</a>
 				</div>
 			</section>
-		-->
+		 -->
 
 		<!-- Footer -->
-			<section id="footer">
+			<section id="footer" class="no-bg-change">
 				<div class="container">
 					<header class="major">
 						<h2>Get in touch</h2>
@@ -424,15 +506,13 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								</ul>
 							</div>
 						</div>
-					</form>
+					</form> 
 				</div>
 				<footer>
 					<ul class="icons">
-						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands alt fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://www.linkedin.com/in/amirithavarshinigurupandian" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/AmirithaGuru" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="gurupandianamirithavarshini@gmail.com" class="icon solid alt fa-envelope"><span class="label">gmail</span></a></li>
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Demo Images: <a href="http://unsplash.com">Unsplash</a></li>
@@ -450,4 +530,27 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/main.js"></script>
 
 	</body>
-</html>
+</html> 
+
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+		const sections = document.querySelectorAll('section.main.special');
+		const html = document.documentElement;
+	
+		function changeBackground() {
+			let scrollPosition = window.scrollY;
+			sections.forEach(section => {
+				let sectionTop = section.offsetTop;
+				let sectionHeight = section.offsetHeight;
+	
+				if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+					let bgImage = section.querySelector('.image.fit.primary img').getAttribute('src');
+					html.style.backgroundImage = `url(${bgImage})`;
+				}
+			});
+		}
+	
+		window.addEventListener('scroll', changeBackground);
+		changeBackground(); // Initial call to set the background image
+	});
+	</script>
